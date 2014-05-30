@@ -13,6 +13,14 @@
                 "element": {"#": "main"}
             }
         },
+        "button": {
+            "prototype": "digit/ui/button.reel",
+            "properties": {
+                "element": {"#": "button"},
+                "enabled": true,
+                "label": true
+            }
+        },
         "sceneView": {
             "prototype": "mjs-volume/ui/scene-view.reel",
             "properties": {
@@ -27,6 +35,7 @@
         <div data-montage-id="sceneView">
             <canvas data-montage-id="canvas"></canvas>
         </div>
+        <button data-montage-id="button"></button>
     </div>
 </body>
 </html>

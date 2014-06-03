@@ -19,5 +19,11 @@ exports.Main = Component.specialize(/** @lends Main# */ {
         value: function () {
             console.log("other");
         }
+    },
+
+    handleButton2Action: {
+        value: function (event) {
+        }
     }
+
 });

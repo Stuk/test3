@@ -27,7 +27,14 @@
                 "element": {"#": "button2"},
                 "enabled": true,
                 "label": true
-            }
+            },
+            "listeners": [
+                {
+                    "type": "action",
+                    "useCapture": false,
+                    "listener": {"@": "owner"}
+                }
+            ]
         }
     }
     </script>
